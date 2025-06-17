@@ -14,9 +14,10 @@ This project consists of reusable HTML and CSS components built with a black and
 Open `index.html` in your browser to view all components.
 
 ## Folder Structure
-
-usable_ui
+```
+ui_comp
 ├── index.html
 ├── style.css
 └── assets/
    └── watch2.jpg
+```
