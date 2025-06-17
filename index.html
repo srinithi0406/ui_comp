@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reusable UI Components</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">ShopZ</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#"><img src="https://img.icons8.com/ios-filled/24/ffffff/shopping-cart.png" alt="Cart"/></a></li>
+      <li><a href="#"><img src="https://img.icons8.com/ios-filled/24/ffffff/search--v1.png" alt="Search"/></a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <!-- Buttons -->
+    <section>
+      <h2>Buttons</h2>
+      <button class="btn btn-primary">Button 1</button>
+      <button class="btn btn-secondary">Button 2</button>
+    </section>
+
+    <!-- Card -->
+    <section>
+      <h2>Card</h2>
+      <div class="card">
+        <img src="assets/watch2.jpg" alt="Sample Image" />
+        <div class="card-body">
+          <h3>Card Title</h3>
+          <p>This is a description for the card component. It is reusable and styled with CSS.</p>
+          <button class="btn btn-primary">Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form -->
+    <section>
+      <h2>Contact Form</h2>
+      <form class="form">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" />
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="4" placeholder="Your message here..."></textarea>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
+
+    <!-- Badges -->
+    <section>
+        <h2>Badges</h2>
+        <span class="badge badge-primary">New</span>
+        <span class="badge badge-warning">! Warning</span>
+        <span class="badge badge-success">Success</span>
+        <span class="badge badge-error">Error</span>
+    </section>
+
+    <!-- Toggle switch -->
+    <section>
+        <h2>Toggle Switch</h2>
+        <label class="switch">
+            <input type="checkbox" id="darkModeToggle">
+            <span class="slider"></span>
+        </label>
+    </section>
+
+
+  </main>
+
+</body>
+</html>
